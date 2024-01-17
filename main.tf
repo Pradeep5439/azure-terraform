@@ -9,7 +9,10 @@ terraform {
 
 provider "azurerm" {
     features {} 
-
+      subscription_id = "4f3e98bc-4212-4d4b-a3dc-37f44bab2835" 
+      tenant_id = "c9121783-6c86-4036-a0b8-bd6259142047"
+      client_id = "087a606f-283f-49ad-8db2-6d34b57e1391"
+      client_secret = "iyL8Q~L9Rohbr5t4mmGqgE2q~oKmjXxUr1rJwde6"
 }
 
 resource "azurerm_virtual_network" "dev-vnet" {
