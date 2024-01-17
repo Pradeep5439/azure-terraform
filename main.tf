@@ -9,10 +9,7 @@ terraform {
 
 provider "azurerm" {
     features {} 
-      subscription_id = $ARM_SUBSCRIPTION_ID
-      tenant_id = $ARM_TENANT_ID
-      client_id = $ARM_CLIENT_ID
-      client_secret = $ARM_CLIENT_SECRET
+
 }
 
 resource "azurerm_virtual_network" "dev-vnet" {
@@ -114,3 +111,6 @@ output "vm-public_ip_address" {
 
 
 
+locals {
+  
+}
