@@ -1,6 +1,4 @@
-
-
-
+/*
 
 resource "azurerm_virtual_network" "dev-vnet" {
     name = "dev-vnet"
@@ -98,3 +96,6 @@ resource "azurerm_linux_virtual_machine" "test-linux-vm01" {
 output "vm-public_ip_address" {
     value = azurerm_public_ip.vm-pub-ip.ip_address
 }
+
+*/
+

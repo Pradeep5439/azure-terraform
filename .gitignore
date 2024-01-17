@@ -2,3 +2,5 @@
 
 provider.tf 
 variables.tf
+
+.terraform.lock.hcl
