@@ -7,6 +7,10 @@ terraform {
   }
 }
 
+provider "azurerm" {
+    features {} 
+}
+
 resource "azurerm_virtual_network" "dev-vnet" {
     name = "dev-vnet"
     location = "East US"
