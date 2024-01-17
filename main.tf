@@ -1,4 +1,11 @@
-/*
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "=3.0.0"
+    }
+  }
+}
 
 resource "azurerm_virtual_network" "dev-vnet" {
     name = "dev-vnet"
@@ -97,5 +104,5 @@ output "vm-public_ip_address" {
     value = azurerm_public_ip.vm-pub-ip.ip_address
 }
 
-*/
+
 
