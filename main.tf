@@ -5,7 +5,9 @@ terraform {
       version = "=3.0.0"
     }
   }
+
 }
+
 
 provider "azurerm" {
     features {} 
@@ -15,6 +17,8 @@ provider "azurerm" {
       client_secret = "iyL8Q~L9Rohbr5t4mmGqgE2q~oKmjXxUr1rJwde6"
 }
 
+
+/*
 resource "azurerm_virtual_network" "dev-vnet" {
     name = "dev-vnet"
     location = "East US"
@@ -114,6 +118,4 @@ output "vm-public_ip_address" {
 
 
 
-locals {
-  
-}
+*/
